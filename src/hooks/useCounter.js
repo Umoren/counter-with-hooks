@@ -8,9 +8,7 @@ const useCounter = (initialValue) => {
     const reset = () => setValue(initialValue);
     const typeCount = (currentValue) => {
         setValue(currentValue)
-        console.log(currentValue)
     }
-
 
     return { value, increment, decrement, reset, typeCount };
 };
